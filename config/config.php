@@ -89,7 +89,7 @@ $config = [
      * When specified as a relative path, this is relative to the SimpleSAMLphp
      * root directory.
      */
-    'certdir' => 'cert/',
+    'certdir' => $CFG->dataroot . '/cert/',
     'loggingdir' => $CFG->dirroot . '/simplesamlphp/log/', // TODO: Move to Volume
     'datadir' => 'data/',
     'tempdir' => '/tmp/simplesaml',
