@@ -1,10 +1,4 @@
-cert/*
-config/*
-metadata/*
 !/.github/build/*.json
-!/cert/*.gitkeep
-!/config/*.dist
-!/metadata/*.dist
 !/public/assets/.gitkeep
 /public/assets/*
 .phpunit.result.cache
